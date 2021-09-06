@@ -12,11 +12,7 @@ import (
 // HandleStickerRequest replies with requested Stickers
 func HandleStickerRequest(message whatsapp.TextMessage) {
 	if strings.HasPrefix(message.Text, "/m7") {
-		img, _ := os.Open("stickers/m7.webp")
-
-		wabot.SendStickerMessage(img, message.Info.RemoteJid)
-	} else if strings.HasPrefix(message.Text, "/downSyndrome") {
-		img, _ := os.Open("stickers/down.webp")
+		img, _ := os.Open("stickers/{somesticker}.webp")
 
 		wabot.SendStickerMessage(img, message.Info.RemoteJid)
 	}

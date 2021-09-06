@@ -5,7 +5,7 @@ I used this bot for myself a while ago and decided to make it public so people c
 That being said I removed some of its features to protect the privacy of my contacts and users.
 
 # Usage
-Clone the program or download it as zip, adjust the parts of the source code that require a name of some group or contact and compile it.
+Clone the program or download it as zip, adjust the parts of the source code that require a name of some group or contact and compile it using ```go build```.
 
 # Lines to edit for yourself
 The data that needs to be changed is always enclosed in { }.

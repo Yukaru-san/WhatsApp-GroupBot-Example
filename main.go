@@ -103,15 +103,6 @@ func main() {
 		go HandleStickerRequest(message)
 	})
 
-	// Sends a sticker upon writing "/m7" in any chat
-	wabot.SetDefaultTextHandleFunction(func(message whatsapp.TextMessage) {
-		if strings.HasPrefix(message.Text, "/ttt") {
-			img, _ := os.Open("stickers/{somesticker}.webp")
-
-			wabot.SendStickerMessage(img, message.Info.RemoteJid)
-		}
-	})
-
 	// Does something when receiving a sticker
 	wabot.SetStickerHandler(func(message whatsapp.StickerMessage) {
 		ReceivedStickerhandler(message)

@@ -1,4 +1,6 @@
-# WhatsApp-GroupBot-Example
+# WhatsApp-GroupBot-Example [Outdated]
+
+<b>With the release of WhatsApp's multi-device support this program stopped working. I may try to update it somewhere in the future!</b>
 
 This project is an example on how to use my [WhatsApp-GroupBot](https://github.com/Yukaru-san/WhatsApp-GroupBot).<br><br>
 I used this bot for myself a while ago and decided to make it public so people can get some inspiration on how to get started on programming their own.<br><br>
